@@ -1,4 +1,4 @@
-# Basic-codes
+//Output:Hello World
 #include<stdio.h>
 void main()
 {
