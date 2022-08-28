@@ -1,0 +1,18 @@
+//Convert a binary number to a decimal number using recursive function
+#include<stdio.h>
+int Convert(int);
+void main()
+{
+int bin,dec;
+printf("Enter the binary number\n");
+scanf("%d",&bin);
+dec = Convert(bin);
+printf("The decimal number for the given binary number is %d \n",dec);
+}
+int Convert(int bin)
+{
+if (bin==0)
+return 0;
+else
+return(bin%10+2*(Convert(bin/10)));
+}
