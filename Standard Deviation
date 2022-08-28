@@ -1,0 +1,32 @@
+//Write a program to compute sum, mean and standard deviation for the given elements
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int n,i;
+float *ptr,A[10],sum=0,std,sumstd=0,mean;
+printf("Enter the number of elements\n");
+scanf("%d",&n);
+printf("Enter the elements\n");
+for(i=0;i<n;i++)
+{
+  scanf("%f",&A[i]);
+}
+ptr=A;
+for(i=0;i<n;i++)
+{
+  sum=sum+*ptr;
+  ptr++;
+}
+mean=sum/n;
+ptr=A;
+for(i=0;i<n;i++)
+{
+  sumstd=sumstd+pow((*ptr-mean),2);
+  ptr++;
+}
+std=sqrt(sumstd/n);
+printf("The sum is %.3f \n",sum);
+printf("The mean is %.3f \n",mean);
+printf("The standard deviation is %.3f \n",std);
+}
