@@ -1,0 +1,22 @@
+// Creating a file and printing a string
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+void main()
+{
+FILE*fp;
+char str[50];
+fp=fopen("data.txt","w");
+if(fp==NULL)
+{
+printf("Error\n");
+exit(1);
+}
+printf("Enter the string\n");
+scanf("%s",str);
+fprintf(fp,"%s",str);
+fscanf(fp,"%s",str);
+printf("%s",str);
+fclose(fp);
+}
