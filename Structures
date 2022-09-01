@@ -13,7 +13,7 @@ int marks[6];
 };
 void main()
 {
-struct student s[i];
+struct student s[10];
 int i,j,n,sum=0;
 float avg;
 printf("Enter the number of students\n");
@@ -24,7 +24,7 @@ scanf("%d",&n);
   printf("Enter the roll number of student\n");
   scanf("%d",&s[i].roll);
   printf("Enter the name of student\n");
-  gets(s[i].name);
+  scanf("%s",s[i].name);                            //gets(s[i].name);
   printf("Enter the marks of student\n");
   for(j=0;j<6;j++)
     {
