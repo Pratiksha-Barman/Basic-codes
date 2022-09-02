@@ -9,10 +9,10 @@ sum=n1+n2;
 difference=n1-n2;
 multiplication=n1*n2;
 division=n1/n2;
-remainder=(int)n1%(int)n2;
-printf("The sum of the two numbers are %.2f\n",sum);
-printf("The difference of the two numbers are %.2f\n",difference);
-printf("The multplication of the two numbers are %.2f\n",multiplication);
-printf("The division of the two numbers are %.2f\n",division);
-printf("The remainder of the two numbers are %.2f\n",remainder);
+remainder=(int)n1%(int)n2;  
+printf("The sum of the two numbers are %.3f\n",sum);
+printf("The difference of the two numbers are %.3f\n",difference);
+printf("The multplication of the two numbers are %.3f\n",multiplication);
+printf("The division of the two numbers are %.3f\n",division);
+printf("The remainder of the two numbers are %.3f\n",remainder);
 }
