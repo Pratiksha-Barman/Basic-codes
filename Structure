@@ -1,6 +1,6 @@
 //Write a program usingstructure to find largest of 3 numbers
-#inck=lude <stdio.h>
-vod main()
+#include <stdio.h>
+void main()
 {
 struct number 
 {
