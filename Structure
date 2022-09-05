@@ -1,0 +1,19 @@
+//Write a program usingstructure to find largest of 3 numbers
+#inck=lude <stdio.h>
+vod main()
+{
+struct number 
+{
+int a,b,c;
+int largest;
+};
+struct number num;
+printf("Enter the number\n");
+scanf("%d%d%d",&num.a,&num.b,&num.c);
+if(num.a>num.b && num.a>num.c)
+printf("the largest number is %d",num.a);
+else if(num.b>num.a && num.b>num.c)
+printf("the largest number is %d",num.b);
+else
+printf("the largest number is %d",num.c);
+}
