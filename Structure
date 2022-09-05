@@ -1,12 +1,13 @@
-//Write a program usingstructure to find largest of 3 numbers
+//Write a program using structure to find largest of 3 numbers
+
 #include <stdio.h>
 void main()
 {
-struct number 
-{
-int a,b,c;
-int largest;
-};
+  struct number 
+  {
+  int a,b,c;
+  int largest;
+  };
 struct number num;
 printf("Enter the number\n");
 scanf("%d%d%d",&num.a,&num.b,&num.c);
