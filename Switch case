@@ -5,7 +5,7 @@ void main()
 int c;
 printf("Enter the number of the day of the week\n");
 scanf("%d",&c);
-switch c
+switch (c)
 {
 case 1:
 if(c==1)
@@ -35,7 +35,7 @@ case 7:
 if(c==7)
 printf("The day is Sunday\n");
 break;
-default
-printf("Enter a number between 1 to 7\n")'
+default:
+printf("Enter a number between 1 to 7\n");
 }
 }
