@@ -8,31 +8,24 @@ scanf("%d",&c);
 switch (c)
 {
 case 1:
-if(c==1)
 printf("The day is Monday\n");
 break;
 case 2:
-if(c==2)
 printf("The day is Tuesday\n");
 break;
 case 3:
-if(c==3)
 printf("The day is Wednesday\n");
 break;
 case 4:
-if(c==4)
 printf("The day is Thursday\n");
 break;
 case 5:
-if(c==5)
 printf("The day is Friday\n");
 break;
 case 6:
-if(c==6)
 printf("The day is Saturday\n");
 break;
 case 7:
-if(c==7)
 printf("The day is Sunday\n");
 break;
 default:
