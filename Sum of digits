@@ -7,10 +7,10 @@ printf("Enter the 5 digit\n");
 scanf("%d",&n);
 temp = n;
 while(temp > 0)
-{
+    {
     digit = temp % 10;
     sum = sum + digit;
     temp = temp / 10;
-}
+    }
 printf("The sum is %d\n",sum);
 }
