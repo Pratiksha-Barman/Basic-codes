@@ -3,6 +3,7 @@
 void main()
 {
 int n, digit, temp, sum = 0;
+printf("Enter the 5 digit\n");
 scanf("%d",&n);
 temp = n;
 while(temp > 0)
@@ -11,5 +12,5 @@ while(temp > 0)
     sum = sum + digit;
     temp = temp / 10;
 }
-printf("%d\n",sum);
+printf("The sum is %d\n",sum);
 }
