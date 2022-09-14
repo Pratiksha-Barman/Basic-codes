@@ -11,7 +11,14 @@ void main()
         scanf("%d",&a[i]);
     }
     ptr=&a;
-    for(i=1;i<n;i++)
+    for(i=1;i<n;i++)                          // for(i=1;i<n;i++)
+      {                                        //{
+         if(*ptr<a[0])                                     //if(a[i]>a[0])
+            ptr++;                                  //{
+               else                               //a[0] = a[i];
+                                              //}
+                                                 // }
+                                              //printf("%d is the largest",a[0]);
     {
         if(*ptr<a[0])
         ptr++;
